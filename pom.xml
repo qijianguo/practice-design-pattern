@@ -19,6 +19,7 @@
 
     <modules>
         <module>state-pattern</module>
+        <module>proxy-pattern</module>
     </modules>
 
     <dependencyManagement>

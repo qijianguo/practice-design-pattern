@@ -21,7 +21,6 @@
         <module>state-pattern</module>
         <module>proxy-pattern</module>
         <module>compound-pattern</module>
-        <module>description-pattern</module>
         <module>strategy-pattern</module>
     </modules>
 

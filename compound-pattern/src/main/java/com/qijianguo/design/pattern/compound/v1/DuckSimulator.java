@@ -35,6 +35,9 @@ public class DuckSimulator {
             System.out.println(array[f]);
         }
         System.out.println("---" + array.length);
+
+        DuckSimulator duckSimulator = new DuckSimulator();
+        duckSimulator.simulate();
     }
 
     public void simulate() {
@@ -55,6 +58,5 @@ public class DuckSimulator {
     public void simulate(Quackable duck) {
         duck.quack();
     }
-
 
 }

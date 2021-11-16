@@ -14,6 +14,8 @@
 
 * 为交互对象之间的松耦合设计而努力
 
+* 类应该对扩展开放，对修改关闭
+
 ---
 ## 策略模式（StrategyPattern）
 
@@ -32,6 +34,14 @@
 
 ![示例类图](_docs/imgs/observer-pattern.jpg)
 
+---
+## 装饰者模式（DecoratorPattern）
+
+**动态地将责任附加到对象上，若要扩展功能，装饰者提供了比继承更有弹性的替代方案。**
+
+**[示例](decorator-pattern)**
+
+![示例类图](_docs/imgs/decorator-pattern.jpg)
 
 ---
 ## 状态模式（StatePattern）

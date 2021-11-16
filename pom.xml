@@ -22,6 +22,7 @@
         <module>proxy-pattern</module>
         <module>compound-pattern</module>
         <module>strategy-pattern</module>
+        <module>observer-pattern</module>
     </modules>
 
     <dependencyManagement>

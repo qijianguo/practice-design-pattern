@@ -16,6 +16,10 @@
 
 * 类应该对扩展开放，对修改关闭
 
+* 依赖倒置原则（Dependency Inversion Principle）
+    
+  要依赖抽象，不要依赖具体类。
+
 ---
 ## 策略模式（StrategyPattern）
 
@@ -42,6 +46,25 @@
 **[示例](decorator-pattern)**
 
 ![示例类图](_docs/imgs/decorator-pattern.jpg)
+
+---
+## 工厂模式（FactoryPattern）
+
+* 简单工厂模式
+
+**简单工厂其实不是一个设计模式，而更像是一种编程习惯。**
+
+* 工厂方法模式（FactoryMethodPattern）
+
+**定义了一个创建对象的接口，但由子类决定要实例化的类是哪一个。工厂方法让类把实例化推迟到子类。**
+
+* 抽象工厂模式
+
+**提供一个接口，用于创建相关或依赖对象的家族，而不需要明确指定具体类。**
+
+**[示例](factory-pattern)**
+
+![示例类图](_docs/imgs/factory-pattern.jpg)
 
 ---
 ## 状态模式（StatePattern）
